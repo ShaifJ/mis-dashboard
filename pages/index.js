@@ -1,4 +1,4 @@
-import { useState } from "react";
+/*import { useState } from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip } from "recharts";
 
 export default function Home() {
@@ -46,6 +46,13 @@ export default function Home() {
         <Tooltip />
         <Line dataKey="profit" />
       </LineChart>
+    </div>*/
+export default function Home() {
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>🔥 MIS Dashboard is Working</h1>
     </div>
+  );
+}
   );
 }
